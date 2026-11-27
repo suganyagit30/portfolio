@@ -25,7 +25,7 @@ export default function Hero() {
         <p className="hello">Hello, I'm Suganya R</p>
         <h1 className="mega">
           <span>Aspiring</span>
-          <span className="inline-photo" aria-hidden="true">
+          {/* <span className="inline-photo" aria-hidden="true">
             {imgOk ? (
               <img
                 src={profile.photo}
@@ -37,7 +37,7 @@ export default function Hero() {
             ) : (
               <b>SR</b>
             )}
-          </span>
+          </span> */}
           <span className="l2">
             Software <em>Developer</em>
           </span>
@@ -49,10 +49,12 @@ export default function Hero() {
             web experiences.
           </p>
           <p className="intro">
-            I'm a Computer Science graduate who enjoys turning ideas into
-            working software. I'm interested in Python programming, backend
-            development, and web technologies, and I like building practical
-            applications that solve real problems.
+            Computer Science graduate with a strong foundation in Python
+            programming, backend development, and software development. Skilled
+            in developing practical applications, working with databases and
+            APIs, and building scalable software solutions. Passionate about
+            applying technical knowledge to develop efficient and reliable
+            applications.
           </p>
           <div className="hero-actions">
             <a className="btn btn-primary" href="#projects">
